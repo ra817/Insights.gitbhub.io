@@ -341,6 +341,7 @@ footer {
     padding: 100px 0; /* Add some vertical padding */
     text-align: center; /* Center align the content */
     color: #fff; /* Light text color */
+    height: 450px;
 
 }
 
@@ -365,13 +366,17 @@ footer {
 #work-descriptions h3 {
     font-size: 45px; /* Increase font size */
     color: #666; /* Change font color */
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 
 }
 
 #work-descriptions p {
     color: #666; /* Medium text color */
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.6;
 }
 
+.dark-text {
+    color: rgb(30, 30, 30); /* Darker shade of black */
+    font-weight: bold;
+}

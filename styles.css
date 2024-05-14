@@ -1,0 +1,377 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+   /* Replace 'path_to_your_image.jpg' with the actual path or URL of your background image */
+    background-size: cover; /* Ensures the background image covers the entire body element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-form h3 {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* About Section */
+#about {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container h2 {
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-container strong {
+    color: #333;
+}
+
+.about-container strong::after {
+    content: ": ";
+}
+
+.about-container strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Dropdown Button */
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.dropdown-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f3f3f3;
+}
+
+
+.about-container {
+    margin-top: 20px; /* Add space above the container */
+    border-top: 2px solid #ccc; /* Add a top border */
+    padding-top: 20px; /* Add space inside the container */
+}
+
+.profile-info {
+    float: left; /* Float the container to the left */
+    margin-right: 50px; /* Adds space between the containers */
+}
+
+.profile-photo {
+    width: 100px; /* Adjust the width as needed */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.about-container:after {
+    content: ""; /* Clear floats */
+    display: table;
+    clear: both;
+}
+
+/* Style for Create Account Button */
+#create-account button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#create-account button:hover {
+    background-color: #0056b3;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right */
+}
+
+.header-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.header-buttons .dropdown-toggle {
+    margin-right: 10px; /* Margin for the Menu button */
+}
+
+.header-buttons button.signin-button {
+    margin-right: 20px; /* Margin for the Sign In button */
+}
+
+.header-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f3f3f3;
+}
+
+#work-descriptions {
+    background-image: url('Background_img.png'); /* Replace 'background-image.jpg' with the path to your image file */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    padding: 100px 0; /* Add some vertical padding */
+    text-align: center; /* Center align the content */
+    color: #fff; /* Light text color */
+
+}
+
+/* Work Descriptions Section */
+#work-descriptions {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 50px 0; /* Add some vertical padding */
+}
+
+#work-descriptions .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#work-descriptions h2 {
+    color: #333; /* Dark heading color */
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#work-descriptions h3 {
+    font-size: 45px; /* Increase font size */
+    color: #666; /* Change font color */
+    margin-bottom: 20px;
+
+}
+
+#work-descriptions p {
+    color: #666; /* Medium text color */
+    font-size: 20px;
+    line-height: 1.6;
+}
+
